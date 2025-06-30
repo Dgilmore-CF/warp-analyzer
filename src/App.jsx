@@ -236,7 +236,7 @@ const PcapAnalyzer = ({ pcapFiles, onPcapAnalyzed, setError }) => {
         setError(null);
 
         // In a real application, you would replace this URL with your actual Worker URL.
-        const WORKER_URL = 'https://pcap-analyzer-worker.your-name.workers.dev'; // <-- IMPORTANT: Replace this
+        const WORKER_URL = 'pcap-analyzer-worker.dgilmore-lab.workers.dev'; // <-- IMPORTANT: Replace this
 
         try {
             // Send the first pcap file for analysis. A real app could loop and send all.
